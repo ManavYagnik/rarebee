@@ -14,7 +14,11 @@
 
 
 .header-item-1:hover{
-  background-color: rgba(255, 255, 255, .9)
+  background-color: rgba(255, 255, 255, .9);
+
+}
+.hamburger-item-1:hover{
+  background-color: rgba(255, 255, 255, .9);
 
 }
 
@@ -68,6 +72,35 @@
 
 }
 
+.hamburger-item-1 div a{
+  text-decoration: none;
+  color: blue;
+  
+}
+
+.hamburger-item-1 div a:hover{
+  text-decoration: none;
+  color: green;
+}
+.hamburger-item-1 div{
+  margin: 10px;
+ 
+}
+
+@media screen and (max-width: 800px){
+  .hamburger-item-1{
+    top: 50px;
+    position: sticky;
+    background-color: rgba(255, 255, 255, 0.01);
+    width: 100%;
+    height: fit-content;
+    display: none;
+
+    z-index:1200 ;
+  }
+}
+
+
 
 @media screen and (min-width: 768px){
   .main-text-1{
@@ -106,6 +139,7 @@
    background-color: rgba(0, 0,0, .3);
   
   }
+
  
 }
 
@@ -125,5 +159,6 @@
 
 .hamburger-item-1{
   display: none;
+  z-index: 1200;
 }
 

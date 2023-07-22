@@ -23,11 +23,20 @@ function Header() {
 
   const [isHovered, setIsHovered] = useState(false);
 
+
+
+
+
+
+  
+
   const handleMouseEnter = () => {
     setIsHovered(true);
+    document.getElementById('hamburger-item-1').style.display='block';
   };
 
   const handleMouseLeave = () => {
+    document.getElementById('hamburger-item-1').style.display='none';
     setIsHovered(false);
   };
 
@@ -61,7 +70,7 @@ function Header() {
           />)}
         </span>
       </div>
-      <div className='hamburger-item-1'>
+      <div className='hamburger-item-1' id='hamburger-item-1'>
 
 
         <div>
