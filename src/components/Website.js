@@ -24,12 +24,7 @@ function Website() {
       
     </div>
 
-    <div className='website-container'>
-        qhgoqhgoqhgoho
-        qgoqjgoqg
-        qgqgqegqge
-      
-    </div>
+   
     </Fragment>
     
   )
