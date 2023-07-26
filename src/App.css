@@ -13,6 +13,16 @@
 
 
 
+
+
+.header-item-at-height{
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.header-item-at-height:hover{
+  background-color: rgba(26, 174, 6, 0.783)
+}
+
 .header-item-1:hover{
   background-color: rgba(255, 255, 255, .9);
 
@@ -40,14 +50,26 @@
   
 }
 
+.header-item-at-height>a{
+  text-decoration: none;
+  margin-top: 40px;
+  color: blue;
+  text-size-adjust: 20px;
+  font-size: larger;
+  font-family: 'Segoe UI';
+
+}
+
+.header-item-at-height>a:hover{
+  color: green;
+}
+
 
   
 
 
 .hamburger-image{
   display: none;
-  
- 
 }
 .main-container-level-1{
     position: absolute;
@@ -89,9 +111,16 @@
  
 }
 
+
+
+.website-container{
+  position: relative;
+  margin-top: 410px;
+}
+
 @media screen and (max-width: 800px){
   .hamburger-item-1{
-    top: 50px;
+    top: 100px;
     position: sticky;
     background-color: rgba(255, 255, 255, 0.01);
     width: 100%;
@@ -125,6 +154,24 @@
     cursor 4s step-end infinite alternate;
   
   }
+
+.header-item-at-height{
+  display: flex;
+  display: row;
+ justify-content: space-evenly;
+ padding-left: 20px;
+ padding-right: 20px;
+ z-index: 1200;
+ position: sticky;
+
+ top: 0;
+ left: 0;
+ background-color: rgba(0, 0,0, .3);
+
+}
+
+
+
 
   .header-item-1{
   

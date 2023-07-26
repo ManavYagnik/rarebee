@@ -10,9 +10,9 @@ function Header() {
 
   const [navbar, setNavbar] = useState(false);
   const changeBackground = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 980) {
       setNavbar(true);
-      console.log("hhgqohgoqhg")
+     
     }
     else {
       setNavbar(false);
@@ -42,12 +42,16 @@ function Header() {
 
 
 
+
+
+
+
   return (
     <Fragment>
 
 
 
-      <div className='header-item-1'>
+      <div className={navbar ? 'header-item-at-height':'header-item-1'}>
         <img src="images/RareBee Lifesciences logo.png" width="90px" height="90px" />
 
 
