@@ -23,18 +23,37 @@ function Website() {
 
       <div className='website-container-2'>
 
+      <div className='website-container-2-text'>
+
+</div>
+
       <div className='website-container-2-image'>
             
             </div> 
        
 
-        <div className='website-container-2-text'>
-
-        </div>
+      
 
        
       
     </div>
+
+
+
+    <div className='website-container-3'>
+
+<div className='website-container-3-image'>
+      
+      </div> 
+ 
+
+  <div className='website-container-3-text'>
+
+  </div>
+
+ 
+
+</div>
 
 
 

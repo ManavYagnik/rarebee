@@ -85,6 +85,11 @@
 }
 
 
+
+
+
+
+
 .website-container-1-image{
   background-color: rgb(19, 120, 120);
   height: 300px;
@@ -119,6 +124,41 @@
 
 
 .website-container-2-image{
+  position: relative;
+  background-color: rgb(44, 190, 0);
+  height: 300px;
+  width: 40%;
+}
+
+
+
+
+
+
+.website-container-3{
+  position: relative;
+  margin-top: 330px;
+
+
+  
+  background-color: rgb(77, 1, 1);
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.website-container-3-text{
+  position: relative;
+  
+  background-color: rgb(12, 139, 139);
+  height: 300px;
+  width: 60%;
+
+}
+
+
+.website-container-3-image{
   position: relative;
   background-color: rgb(44, 190, 0);
   height: 300px;
