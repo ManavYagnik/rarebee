@@ -1,7 +1,7 @@
 import React from 'react';
 import { Fragment } from 'react';
 import Website from './Website';
-// import 'react-multi-carousel/lib/styles.css';
+
 
 
 function Main() {
