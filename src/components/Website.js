@@ -25,7 +25,7 @@ function Website() {
 
       <div className='website-container-2-text'>
 
-</div>
+      </div>
 
       <div className='website-container-2-image'>
             
