@@ -356,8 +356,9 @@
       .hamburger-image{
         display: flex;
         width: 100%;
+        margin-top: 15px;
         
-        margin-top: 30px;
+        
         justify-content: right;
 
        
@@ -402,7 +403,7 @@
       }
 
       .header-item-1>img{
-        margin-top: 10px;
+      
         
       }
  

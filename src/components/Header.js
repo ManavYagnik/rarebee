@@ -52,7 +52,7 @@ function Header() {
 
 
       <div className= 'header-item-1'>
-        <img src="images/RareBee Lifesciences logo.png" width="90px" height="90px" />
+        <img src="images/RareBee Lifesciences logo.png" width="80px" height="80px" />
 
 
         <a href="aboutus.html">About Us</a>
@@ -64,12 +64,12 @@ function Header() {
         <span className='hamburger-image'>
           {isHovered ? (<img
             src="images/cross-image.png"
-            width="40px" height="40px"
+            width="60px" height="60px"
 
             onClick={handleMouseLeave}
           />) : (<img
             src="images/icons8-hamburger-menu-50.png"
-            width="40px" height="40px"
+            width="60px" height="60px"
             onClick={handleMouseEnter}
           />)}
         </span>
