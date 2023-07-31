@@ -51,7 +51,7 @@ function Header() {
 
 
 
-      <div className={navbar ? 'header-item-at-height':'header-item-1'}>
+      <div className= 'header-item-1'>
         <img src="images/RareBee Lifesciences logo.png" width="90px" height="90px" />
 
 

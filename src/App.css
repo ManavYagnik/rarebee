@@ -234,7 +234,8 @@
 
 .hamburger-item-1 div a{
   text-decoration: none;
-  color: blue;
+  color: black;
+  font-weight: bolder;
   
 }
 
@@ -243,7 +244,8 @@
   color: green;
 }
 .hamburger-item-1 div{
-  margin: 10px;
+  padding: 20px;
+  
  
 }
 
@@ -318,7 +320,7 @@
   .hamburger-item-1{
     top: 100px;
     position: sticky;
-    background-color: rgba(255, 255, 255, 0.01);
+    background-color: rgba(255, 255 ,255, 1);
     width: 100%;
     height: fit-content;
     display: none;
@@ -382,7 +384,7 @@
   
    top: 0;
    left: 0;
-   background-color: rgba(255, 255 ,255, 1);
+   background-color: rgba(0, 0,0, .3);
   
   }
 
