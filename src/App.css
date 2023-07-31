@@ -97,9 +97,6 @@
 }
   
 
-
-
-
 .website-container-2{
   position: relative;
   margin-top: 140px;
@@ -164,6 +161,10 @@
   height: 300px;
   width: 40%;
 }
+
+
+
+
 
 
 .hamburger-image{
@@ -401,14 +402,15 @@
     .slider-text {
       position: absolute;
       top: 40%;
-      left: 5%;
+      left: 25%;
       color: #ffffff;
       background-color: rgba(0, 0, 0, 0.3);
-      width: 600px;
+      width: 100vb;
       text-transform: capitalize;
       animation: text-up 12s linear infinite;
       transform: translateY(100px);
       animation-delay: 0s;
+      overflow-x: hidden;
 
       h1 {
         font-size: 2.5rem;
