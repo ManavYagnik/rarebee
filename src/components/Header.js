@@ -64,12 +64,12 @@ function Header() {
         <span className='hamburger-image'>
           {isHovered ? (<img
             src="images/cross-image.png"
-            width="90px" height="90px"
+            width="40px" height="40px"
 
             onClick={handleMouseLeave}
           />) : (<img
             src="images/icons8-hamburger-menu-50.png"
-            width="90px" height="90px"
+            width="40px" height="40px"
             onClick={handleMouseEnter}
           />)}
         </span>
