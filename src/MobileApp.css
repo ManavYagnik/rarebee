@@ -12,6 +12,11 @@
   }
 
 
+  .micro-image{
+    margin-top: 100px;
+  }
+  
+
 
 
   .footer-box-1{
@@ -278,9 +283,10 @@
 
 }
 .website-container-1-image{
-  background-color: rgb(19, 120, 120);
+
   height: 300px;
   width: 100%;
+  text-align: center;
 }
   
 
