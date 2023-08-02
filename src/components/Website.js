@@ -11,6 +11,7 @@ function Website() {
             </div>
 
         <div className='website-container-1-text'>
+          <p>About Us</p>
 
         </div>
 

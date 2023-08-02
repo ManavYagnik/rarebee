@@ -88,6 +88,7 @@
 
 
 .website-container-1-text{
+  text-align: center;
   
   background-color: rgb(175, 197, 6);
   height: 300px;
@@ -178,13 +179,20 @@
 
 
 .website-container-1-text{
-  
+  margin-top: 200px;
   background-color: rgb(175, 197, 6);
   height: 300px;
   width: 60%;
+ 
 
 }
 
+
+.website-container-1-text p{
+  font-size: 40px;
+  font-weight: bolder;
+
+}
 
 
 
@@ -319,7 +327,8 @@
 @media screen and (max-width: 800px){
   .hamburger-item-1{
     top: 100px;
-    position: sticky;
+
+    position: relative;
     background-color: rgba(255, 255 ,255, 1);
     width: 100%;
     height: fit-content;

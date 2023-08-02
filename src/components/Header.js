@@ -81,17 +81,20 @@ function Header() {
           <a href="aboutus.html">About Us</a>
         </div>
         <div>
-          <a href="contactus.html">Contact Us</a>
+        <a href="quality.html">Quality</a>
+         
         </div>
         <div>
           <a href="productlist.html">Product List</a>
         </div>
         <div>
-          <a href="quality.html">Quality</a>
+        <a href="productgallery.html">Product Gallery</a>
+       
         </div>
 
         <div>
-          <a href="productgallery.html">Product Gallery</a>
+     
+          <a href="contactus.html">Contact Us</a>
         </div>
 
 
