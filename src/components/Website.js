@@ -6,12 +6,34 @@ function Website() {
     <div className='website-container-1'>
 
     <div className='website-container-1-image'>
-       <img src='images/microscope.jpg' width="390px" height="390px" className='micro-image' />
+       <img src='images/microscope.jpg' width="300px" height="390px" className='micro-image' />
             
             </div>
 
         <div className='website-container-1-text'>
-          <p>About Us</p>
+        <br/>
+        <br/>
+         
+         
+         
+          <h1>About Us</h1>
+          <br/>
+          <br/>
+          <br/>
+          <p> We have vision of becoming a recognized name in Pharmaceuticals field in short span of time. Today RareBee Lifesciences
+Is one of he fastest growing Pharmaceuticals company based at ahmedabad,Gujarat.
+<br/>
+<br/>
+<br/>
+ 
+RareBee Lifesciences is committed for its mission of Healthy Citizen
+by bringing all kinds of drugs in the reach of global citizen .<br />
+
+<br/>
+<br/>
+
+We supply the formulation in every possible forms such as tablets, capsules 
+injectable oral suspension ,syrups ,powder etc. for internal consumption and creams, lotions, Ointments, gels for external use.</p>
 
         </div>
 
@@ -25,40 +47,16 @@ function Website() {
 
 
 
-      <div className='website-container-2'>
-
-      <div className='website-container-2-text'>
-
-      </div>
-
-      <div className='website-container-2-image'>
-            
-            </div> 
-       
 
       
 
        
       
-    </div>
+   
 
 
 
-    <div className='website-container-3'>
-
-<div className='website-container-3-image'>
-      
-      </div> 
- 
-
-  <div className='website-container-3-text'>
-
-  </div>
-
- 
-
-</div>
-
+   
 
 
 

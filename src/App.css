@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+ 
 }
 
 
@@ -81,7 +83,7 @@
 
   margin-top: 410px;
   
-  height: 260px;
+  height: 860px;
   display: flex;
   flex-direction: row;
 }
@@ -89,9 +91,10 @@
 
 .website-container-1-text{
   text-align: center;
+
   
-  background-color: rgb(175, 197, 6);
-  height: 300px;
+
+
   width: 60%;
 
 }
@@ -128,7 +131,7 @@
 .website-container-2-text{
   position: relative;
   
-  background-color: rgb(12, 139, 139);
+
   height: 300px;
   width: 60%;
 
@@ -137,7 +140,7 @@
 
 .website-container-2-image{
   position: relative;
-  background-color: rgb(44, 190, 0);
+
   height: 300px;
   width: 40%;
 }
@@ -180,15 +183,15 @@
 
 .website-container-1-text{
   margin-top: 200px;
-  background-color: rgb(175, 197, 6);
-  height: 300px;
+
+  height: 600px;
   width: 60%;
  
 
 }
 
 
-.website-container-1-text p{
+.website-container-1-text h1{
   font-size: 40px;
   font-weight: bolder;
 
